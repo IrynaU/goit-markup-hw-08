@@ -68,13 +68,15 @@
   
   
   .menu-list {
-    display: flex;
-    align-items: center;
+    // display: flex;
+    // align-items: center;
+    display: none;
   }
   
   .menu-contact {
-    display: flex;
-    align-items: center;
+    // display: flex;
+    // align-items: center;
+    display: none;
     }
   
   
@@ -161,6 +163,13 @@
    }
   }
 
+
+  .burger-button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+  }
 
   
   
