@@ -1,0 +1,44 @@
+.work-icon {
+    width: 70px;
+    height: 70px; 
+    fill: var(--secondary-text-color);
+  }
+  
+  .work-contact-icon-wrapper {
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: var(--third-color);
+    border-radius: 4px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+  }
+
+  .work-list {
+    display: flex;
+  }
+  
+  
+  
+  .work-list_work-item {
+    width: 270px;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+  
+  
+  
+  .work-about-title {
+  margin-bottom: 15px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  font-size: 14px;
+  }
+  
+  .work-about-text {
+  line-height: 1.71;
+  color: var(--primary-text-color-theme-light);
+  }
+

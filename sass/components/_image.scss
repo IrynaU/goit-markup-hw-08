@@ -1,0 +1,8 @@
+.about-section-title_image-picture {
+    position: relative;
+    overflow: hidden;
+    
+      &:not(:last-child) {
+        margin-right: 30px;
+      } 
+  }
