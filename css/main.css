@@ -143,7 +143,7 @@ ol {
 .team-item_team-list {
   background-color: var(--primary-text-color);
   width: 100%;
-  height: 428px;
+  padding-bottom: 24px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
@@ -240,11 +240,10 @@ ol {
 
 .footer-box {
   display: flex;
-  align-items: baseline;
   justify-content: space-between;
   flex-direction: column;
   gap: 60px;
-  justify-content: center;
+  align-items: center;
 }
 
 .footer-page {
@@ -255,7 +254,14 @@ ol {
   font-style: normal;
 }
 
+.contact-link .contact-maill, .contact-link .contact-phone-number {
+  text-align: center;
+  display: block;
+  margin: 0;
+}
+
 .footer-logo {
+  text-align: center;
   margin-bottom: 20px;
   margin-right: 0;
   display: block;
@@ -275,10 +281,15 @@ ol {
   font-weight: 400;
   line-height: 1.71;
   color: var(--primary-text-color);
+  text-align: center;
 }
 
 .maps-contact-phone:not(:last-child) {
   margin-bottom: 9px;
+}
+
+.footer-sociale-list-footer {
+  width: 100%;
 }
 
 .footer-sociale {
@@ -290,6 +301,7 @@ ol {
   margin-bottom: 18.25px;
   text-transform: uppercase;
   display: block;
+  text-align: center;
 }
 
 .social-list-icon-footer {
@@ -321,6 +333,10 @@ ol {
   background-color: var(--secondary-text-color-theme-light);
 }
 
+.modal-form-field-footer {
+  margin-bottom: 20px;
+}
+
 .modal-form-title-footer {
   color: var(--primary-text-color);
   font-weight: 700;
@@ -328,10 +344,11 @@ ol {
   line-height: 1.14;
   margin-bottom: 18.25px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .modal-form-input-footer {
-  width: 358px;
+  width: 100%;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -360,6 +377,7 @@ ol {
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
   padding: 10px 28px;
+  margin: 0 auto;
 }
 
 .modal-form-footer {
@@ -411,17 +429,17 @@ ol {
   margin-left: auto;
   margin-right: auto;
 }
-@media screen and (min-widht: 480px) {
+@media screen and (min-width: 480px) {
   .container {
     width: 480px;
   }
 }
-@media screen and (min-widht: 768px) {
+@media screen and (min-width: 768px) {
   .container {
-    width: 720px;
+    width: 768px;
   }
 }
-@media screen and (min-widht: 1200px) {
+@media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
   }
