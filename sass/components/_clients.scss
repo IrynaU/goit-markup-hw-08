@@ -1,6 +1,9 @@
 .clients-box {
     display: flex;
     align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   
   .clients-icon-box {
@@ -26,9 +29,9 @@
   
   
   
-  .clients-box_clients-list:not(:last-child) {
-    margin-right: 30px;
-  }
+  // .clients-box_clients-list:not(:last-child) {
+  //   margin-right: 30px;
+  // }
   
   .clients-icon {
     display: flex;
@@ -36,4 +39,6 @@
     justify-content: center;
     fill: currentColor;
   }
+
+ 
   

@@ -16,25 +16,28 @@
 
   .work-list {
     display: flex;
+    flex-direction: column;
+    gap: 30px;
   }
   
   
   
   .work-list_work-item {
-    width: 270px;
+    width: 100%;
 
-    &:not(:last-child) {
-      margin-right: 30px;
-    }
+    // &:not(:last-child) {
+    //   margin-right: 30px;
+    // }
   }
   
   
   
   .work-about-title {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   line-height: 1.14;
   text-transform: uppercase;
   font-size: 14px;
+  text-align: center;
   }
   
   .work-about-text {

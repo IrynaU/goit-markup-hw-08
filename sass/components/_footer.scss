@@ -4,6 +4,9 @@
     display: flex;
     align-items: baseline;
     justify-content: space-between;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: center;
   }
   
   
@@ -156,6 +159,7 @@
   
   .modal-form-footer {
     display: flex;
+    flex-direction: column;
   }
   
   .modal-close-icon-footer {

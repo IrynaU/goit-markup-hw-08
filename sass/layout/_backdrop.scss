@@ -10,6 +10,7 @@
     visibility: visible;
     pointer-events: auto;
     transition: opacity 250ms ease, visibility 250ms ease;
+    overflow: scroll;
     
     &.is-hidden {
       visibility: hidden;

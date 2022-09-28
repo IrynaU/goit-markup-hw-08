@@ -1,14 +1,23 @@
 .title-conteiner {
+   display: none;
     padding-top: 0px;
+    @media screen and (min-width:1200px) {
+      display: block;
+    }
+
    }
 
   
   
   .section-title {
-    margin-bottom: 50px;
-    font-size: 36px;
+    margin-bottom: 30px;
+    font-size: 28px;
     line-height: 1.17;
     text-align: center;
+    @media screen and (min-width:1200px) {
+      font-size: 36px;
+      margin-bottom: 50px;
+    }
     }
 
     .about-section-title {

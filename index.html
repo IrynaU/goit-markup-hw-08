@@ -87,7 +87,7 @@
                     
             </section> 
 
-      <!--             
+                  
             <section class="work section">
                 <div class="container">
                     <h2 class="visually-hidden" hidden>Переваги</h2>
@@ -141,8 +141,8 @@
                 </div>
                 
             </section>
-             -->
-      <!-- <section class="section title-conteiner">  
+            
+      <section class="section title-conteiner">  
                 <div class="container">
                     <h2 class="section-title">Чим ми займаємося</h2>
                     <ul class="about-section-title">
@@ -163,14 +163,66 @@
                     </ul>
                 </div> 
                 
-            </section>     -->
+            </section>    
 
-      <!-- <section class="team section"> 
+      <section class="team section"> 
                 <div class="container">
                     <h2 class="section-title">Наша команда</h2>
                     <ul class="team-item">
                         <li class="team-item_team-list">
-                            <img class="image picture" src="./images/team-1.jpg" alt="Ігор Дем'яненко" width="270" height="260">
+                            <picture>
+                                <source
+                                  srcset="
+                                    ./images/team/desktop-team1-img.webp    1x,
+                                    ./images/team/desktop-team1-img@2x.webp 2x
+                                  "
+                                  media="(min-width: 1200px)"
+                                  type="image/webp"
+                                />
+                                <source
+                                  srcset="
+                                    ./images/team/desktop-team1-img.jpg    1x,
+                                    ./images/team/desktop-team1-img@2x.jpg 2x
+                                  "
+                                  media="(min-width: 1200px)"
+                                />
+                                <source
+                                  srcset="
+                                  ./images/team/tablet-team1-img.webp    1x,
+                                  ./images/team/tablet-team1-img@2x.webp 2x
+                                  "
+                                  media="(min-width: 768px)"
+                                  type="image/webp"
+                                />
+                                <source
+                                  srcset="
+                                  ./images/team/tablet-team1-img.jpg    1x,
+                                  ./images/team/tablet-team1-img@2x.jpg 2x
+                                  "
+                                  media="(min-width: 768px)"
+                                />
+                                <source
+                                  srcset="
+                                    ./images/team/mobile-team1-img.webp    1x,
+                                    ./images/team/mobile-team1-img@2x.webp 2x
+                                  "
+                                  media="(max-width: 767px)"
+                                  type="image/webp"
+                                />
+                                <source
+                                  srcset="
+                                  ./images/team/mobile-team1-img@2x.jpg 2x 
+                                  ./images/team/mobile-team1-img.jpg    1x,
+                                   
+                                  "
+                                  media="(max-width: 767px)"
+                                />
+                                <img
+                                  class="image picture"
+                                  src="./images/team/mobile-team1-img.jpg"
+                                  alt="дизайнер продукту"
+                                />
+                              </picture>
                             <h3 class="team-name">Ігор Дем'яненко</h3>
                             <p class="team-position">Product Designer</p>
                             <ul class="social-list">
@@ -320,8 +372,8 @@
                     </ul> 
                 </div>
                 
-            </section>      -->
-      <!-- <section class="section">
+            </section>     
+      <section class="section">
                 <div class="container">
                     <h2 class="section-title">Постійні клієнти</h2>
                     <ul class="clients-box">
@@ -372,10 +424,10 @@
                         </li> 
                     </ul>
                 </div>
-            </section> -->
+            </section>
     </main>
-    <!--Підвал Сторінки-->
-    <!-- <footer class="footer-conteiner footer-page">
+    <!-- Підвал Сторінки-->
+    <footer class="footer-conteiner footer-page">
             <div class="container footer-box ">
                 <div class="footer-page-box">
                     <a class="logo logo_color_light link footer-logo" href="./index.html"><span class="accent">Web</span>Studio</a>
@@ -449,7 +501,7 @@
             </div>
             
             
-        </footer> -->
+        </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
