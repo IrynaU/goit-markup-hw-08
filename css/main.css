@@ -621,6 +621,67 @@ ol {
   background-color: transparent;
 }
 
+.menu-button {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+.menu-button:hover, .menu-button:focus {
+  fill: var(--secondary-text-color-theme-light);
+  cursor: pointer;
+  transition: var(--transition-dur-and-func);
+  outline: none;
+}
+
+.menu-container {
+  background-color: #fff;
+}
+
+.menu-list-burger__link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.18px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.menu-list-burger__item {
+  margin-bottom: 32px;
+}
+
+.modal-burger {
+  padding-left: 40px;
+}
+
+.navigation-burger {
+  padding-top: 48px;
+}
+
+.menu-list-burger__link:hover,
+.menu-list-burger__link:focus {
+  color: var(--secondary-text-color-theme-light);
+}
+
+.menu-social-burger {
+  display: flex;
+}
+
+.social-burger {
+  color: var(--secondary-text-color-theme-light);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22px;
+  letter-spacing: 0.02em;
+}
+
+.menu-social-item-burger:not(:last-child) {
+  padding-right: 20px;
+}
+
 .hero {
   width: 100%;
   margin-left: auto;
