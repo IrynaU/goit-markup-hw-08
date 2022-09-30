@@ -24,6 +24,16 @@
   
   .work-list_work-item {
     width: 100%;
+    @media screen and (min-width: 768px) {
+  
+      width: 354px;
+    
+  }
+  
+  @media screen and (min-width: 1200px) {
+  
+      width: 270px;
+    }
 
     // &:not(:last-child) {
     //   margin-right: 30px;
@@ -44,4 +54,5 @@
   line-height: 1.71;
   color: var(--primary-text-color-theme-light);
   }
+  
 

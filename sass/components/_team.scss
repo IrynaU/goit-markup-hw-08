@@ -32,8 +32,19 @@
     // &:not(:last-child) {
     //     margin-right: 30px;
     // } 
-  }
+    @media screen and (min-width: 768px) {
+      width: 354px;
+      
+    }
+    
+    @media screen and (min-width: 1200px) {
+      width: 270px;
+    
+     }
 
+
+}   
+  
   .team {
     background-color: var(--third-color);
   }
@@ -62,4 +73,12 @@
       align-items: center;
       flex-direction: column;
       gap: 30px;
+      @media screen and (min-width: 768px) {
+        
+      }
+      
+      @media screen and (min-width: 1200px) {
+        
+       }
+
     } 

@@ -147,6 +147,16 @@ ol {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+@media screen and (min-width: 768px) {
+  .team-item_team-list {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team-item_team-list {
+    width: 270px;
+  }
+}
 
 .team {
   background-color: var(--third-color);
@@ -176,7 +186,6 @@ ol {
   flex-direction: column;
   gap: 30px;
 }
-
 .social-list-icon {
   fill: var(--icon-color);
   transition: fill var(--transition-dur-and-func);
@@ -534,6 +543,11 @@ ol {
   justify-content: center;
   align-items: center;
 }
+@media screen and (min-width: 768px) {
+  .menu-contact-item {
+    display: block;
+  }
+}
 
 .navigation {
   display: flex;
@@ -543,9 +557,24 @@ ol {
 .menu-list {
   display: none;
 }
-
+@media screen and (min-width: 768px) {
+  .menu-list {
+    display: flex;
+    align-items: center;
+  }
+}
 .menu-contact {
   display: none;
+}
+@media screen and (min-width: 768px) {
+  .menu-contact {
+    display: block;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .menu-contact {
+    display: flex;
+  }
 }
 
 .menu-list__item:not(:last-child) {
@@ -620,6 +649,11 @@ ol {
   border: none;
   background-color: transparent;
 }
+@media screen and (min-width: 768px) {
+  .burger-button {
+    display: none;
+  }
+}
 
 .menu-button {
   position: absolute;
@@ -668,18 +702,43 @@ ol {
 
 .menu-social-burger {
   display: flex;
+  margin-top: 64px;
 }
 
 .social-burger {
   color: var(--secondary-text-color-theme-light);
   font-weight: 500;
   font-size: 18px;
-  line-height: 1.22px;
+  line-height: 1.22;
   letter-spacing: 0.02em;
 }
 
 .menu-social-item-burger:not(:last-child) {
   padding-right: 20px;
+}
+
+.menu-contact-burger {
+  margin-top: 100px;
+}
+
+.contact-maill-burger {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color-theme-light);
+}
+
+.contact-phone-number-burger {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 1.18;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color-theme-light);
+}
+
+.menu-contact-item-burger {
+  margin-top: 32px;
 }
 
 .hero {
@@ -775,6 +834,16 @@ ol {
 .work-list_work-item {
   width: 100%;
 }
+@media screen and (min-width: 768px) {
+  .work-list_work-item {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .work-list_work-item {
+    width: 270px;
+  }
+}
 
 .work-about-title {
   margin-bottom: 10px;
@@ -797,6 +866,16 @@ ol {
 .project-list_project-item:hover {
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+@media screen and (min-width: 768px) {
+  .project-list_project-item {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .project-list_project-item {
+    width: 370px;
+  }
 }
 
 .text-project-title {
@@ -900,6 +979,21 @@ ol {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding: 40px;
+}
+@media screen and (min-width: 480px) {
+  .modal {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .modal {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+  }
 }
 
 .modal-close-btn {
@@ -1075,7 +1169,7 @@ ol {
 }
 @media screen and (min-width: 480px) {
   .modal-form-own-checkbox-text {
-    font-size: 12px;
+    font-size: 9px;
   }
 }
 
