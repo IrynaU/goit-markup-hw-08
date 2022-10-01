@@ -261,16 +261,17 @@ ol {
 }
 @media screen and (min-width: 768px) {
   .footer-box {
+    align-items: baseline;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
     text-align: center;
     justify-content: center;
   }
 }
 @media screen and (min-width: 1200px) {
   .footer-box {
-    justify-content: space-around;
+    flex-wrap: nowrap;
+    justify-content: space-between;
   }
 }
 
@@ -429,6 +430,11 @@ ol {
 @media screen and (min-width: 768px) {
   .footer-sociale-list {
     margin-left: 165px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-sociale-list {
+    margin-left: 70px;
   }
 }
 

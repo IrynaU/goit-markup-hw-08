@@ -8,18 +8,20 @@
     gap: 60px;
     align-items: center;
     @media screen and (min-width: 768px) {
-    // align-items: baseline;
     
+       align-items: baseline;
         flex-direction: row;
         flex-wrap: wrap;
-        align-items: center;
+        // align-items: center;
         text-align: center;
         justify-content: center;
     }
     
     @media screen and (min-width: 1200px) {
-     
-      justify-content: space-around;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      
+      
       }
   }
   
@@ -81,15 +83,15 @@
   .footer-sociale-list-footer {
     width: 100%;
     @media screen and (min-width: 768px) {
-      
+     
     
   }
   
   @media screen and (min-width: 1200px) {
     
-    }
+}
   }
-  
+
   
   .footer-sociale {
     color: var(--primary-text-color); 
@@ -219,8 +221,11 @@
   .footer-sociale-list {
     @media screen and (min-width: 768px) {
       margin-left: 165px;
-       
-      
-      }
+    } 
+    @media screen and (min-width: 1200px) {
+      margin-left: 70px;
+    } 
   }
+     
+  
  
