@@ -186,6 +186,11 @@ ol {
   flex-direction: column;
   gap: 30px;
 }
+@media screen and (min-width: 768px) {
+  .team-item {
+    flax-basis: calc((100% - 30px) / 2);
+  }
+}
 .social-list-icon {
   fill: var(--icon-color);
   transition: fill var(--transition-dur-and-func);
@@ -254,7 +259,15 @@ ol {
   gap: 60px;
   align-items: center;
 }
-
+@media screen and (min-width: 768px) {
+  .footer-box {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+}
 .footer-page {
   background-color: var(--accent-color);
 }
@@ -300,7 +313,6 @@ ol {
 .footer-sociale-list-footer {
   width: 100%;
 }
-
 .footer-sociale {
   color: var(--primary-text-color);
   font-style: normal;
@@ -366,6 +378,16 @@ ol {
   padding-left: 12px;
   color: var(--primary-text-color);
 }
+@media screen and (min-width: 768px) {
+  .modal-form-input-footer {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal-form-input-footer {
+    width: 450px;
+  }
+}
 
 .modal-form-submit-foote {
   width: 200px;
@@ -396,6 +418,12 @@ ol {
 
 .modal-close-icon-footer {
   margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-sociale-list {
+    margin-left: 165px;
+  }
 }
 
 .btn {
@@ -569,6 +597,8 @@ ol {
 @media screen and (min-width: 768px) {
   .menu-contact {
     display: block;
+    align-items: center;
+    justify-content: center;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -637,6 +667,18 @@ ol {
   display: flex;
   align-items: center;
   transition: color var(--transition-dur-and-func);
+}
+@media screen and (min-width: 768px) {
+  .contact-phone-number {
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contact-phone-number {
+    align-items: center;
+    justify-content: center;
+    display: inline;
+  }
 }
 .contact-phone-number:hover, .contact-phone-number:focus {
   color: var(--secondary-text-color-theme-light);
@@ -829,6 +871,20 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 30px;
+}
+@media screen and (min-width: 768px) {
+  .work-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .work-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 
 .work-list_work-item {

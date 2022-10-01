@@ -94,17 +94,17 @@
     display: none;
     @media screen and (min-width: 768px) {
       display: block;
-     
+      align-items: center;
+      justify-content: center;
     }
     
     @media screen and (min-width: 1200px) {
     
         display: flex;
-
-      }
+       
     }
   
-  
+  } 
   
   
   
@@ -180,6 +180,16 @@
   display: flex;
   align-items: center;
   transition: color var(--transition-dur-and-func);
+  @media screen and (min-width: 768px) {
+    margin-top: 10px;
+  }
+  
+  @media screen and (min-width: 1200px) {
+    align-items: center;
+    justify-content: center;
+    display: inline;  
+  }
+ 
 
   &:hover,
   &:focus {
@@ -233,9 +243,7 @@
  .menu-container {
   background-color: #fff;
  
-  
- } 
-
+ }
  .menu-list-burger__link {
 
 font-style: normal;
