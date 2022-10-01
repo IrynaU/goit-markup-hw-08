@@ -868,7 +868,6 @@ ol {
 }
 
 .work-list {
-  display: flex;
   flex-direction: column;
   gap: 30px;
 }
@@ -879,14 +878,6 @@ ol {
     flex-wrap: wrap;
   }
 }
-@media screen and (min-width: 1200px) {
-  .work-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-}
-
 .work-list_work-item {
   width: 100%;
 }
