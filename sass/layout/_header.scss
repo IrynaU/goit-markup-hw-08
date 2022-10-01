@@ -96,10 +96,11 @@
       display: block;
       align-items: center;
       justify-content: center;
+      margin-left: 50px;
     }
     
     @media screen and (min-width: 1200px) {
-    
+      margin-left: auto;
         display: flex;
        
     }
