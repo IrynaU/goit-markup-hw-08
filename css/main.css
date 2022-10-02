@@ -254,7 +254,7 @@ ol {
 
 .footer-box {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: column;
   gap: 60px;
   align-items: center;
@@ -288,12 +288,22 @@ ol {
   display: block;
   margin: 0;
 }
+@media screen and (min-width: 1200px) {
+  .contact-link .contact-maill, .contact-link .contact-phone-number {
+    text-align: start;
+  }
+}
 
 .footer-logo {
   text-align: center;
   margin-bottom: 20px;
   margin-right: 0;
   display: block;
+}
+@media screen and (min-width: 1200px) {
+  .footer-logo {
+    text-align: start;
+  }
 }
 
 .logo_color_light {
@@ -312,6 +322,11 @@ ol {
   color: var(--primary-text-color);
   text-align: center;
 }
+@media screen and (min-width: 1200px) {
+  .maps {
+    text-align: start;
+  }
+}
 
 .maps-contact-phone:not(:last-child) {
   margin-bottom: 9px;
@@ -319,6 +334,11 @@ ol {
 
 .footer-sociale-list-footer {
   width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .footer-sociale-list-footer {
+    width: auto;
+  }
 }
 .footer-sociale {
   color: var(--primary-text-color);
@@ -330,6 +350,11 @@ ol {
   text-transform: uppercase;
   display: block;
   text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  .footer-sociale {
+    text-align: start;
+  }
 }
 
 .social-list-icon-footer {
@@ -374,6 +399,11 @@ ol {
   text-transform: uppercase;
   text-align: center;
 }
+@media screen and (min-width: 1200px) {
+  .modal-form-title-footer {
+    text-align: start;
+  }
+}
 
 .modal-form-input-footer {
   width: 100%;
@@ -387,12 +417,12 @@ ol {
 }
 @media screen and (min-width: 768px) {
   .modal-form-input-footer {
-    width: 450px;
+    width: 354px;
   }
 }
 @media screen and (min-width: 1200px) {
   .modal-form-input-footer {
-    width: 450px;
+    width: 354px;
   }
 }
 
@@ -422,20 +452,15 @@ ol {
   display: flex;
   flex-direction: column;
 }
+@media screen and (min-width: 1200px) {
+  .modal-form-footer {
+    flex-direction: row;
+    gap: 10px;
+  }
+}
 
 .modal-close-icon-footer {
   margin-left: 10px;
-}
-
-@media screen and (min-width: 768px) {
-  .footer-sociale-list {
-    margin-left: 165px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .footer-sociale-list {
-    margin-left: 70px;
-  }
 }
 
 .btn {

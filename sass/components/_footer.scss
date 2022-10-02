@@ -3,7 +3,7 @@
   .footer-box {
     display: flex;
     // align-items: baseline;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: column;
     gap: 60px;
     align-items: center;
@@ -20,8 +20,7 @@
     @media screen and (min-width: 1200px) {
       flex-wrap: nowrap;
       justify-content: space-between;
-      
-      
+     
       
       }
   }
@@ -29,6 +28,19 @@
   
   .footer-page {
     background-color: var(--accent-color);
+  }
+
+  .footer-page-box {
+    @media screen and (min-width: 768px) {
+     
+   
+    
+  }
+  
+  @media screen and (min-width: 1200px) {
+  
+      
+    }
   }
   
   
@@ -43,6 +55,10 @@
     text-align: center;
     display: block;
     margin: 0;
+    @media screen and (min-width: 1200px) {
+      text-align:start;
+      
+    }
   }
 
   
@@ -53,6 +69,10 @@
     margin-bottom: 20px;
     margin-right: 0;
     display: block;
+    @media screen and (min-width: 1200px) {
+      text-align:start;
+      
+    }
   }
 
   .logo_color_light {
@@ -74,6 +94,11 @@
   line-height: 1.71;
   color: var(--primary-text-color);
   text-align: center;
+  @media screen and (min-width: 1200px) {
+    text-align:start;
+    
+  }
+  
   }
   
   .maps-contact-phone:not(:last-child) {
@@ -84,7 +109,7 @@
   .footer-sociale-list-footer {
     width: 100%;
     @media screen and (min-width: 768px) {
-     
+      width: auto;
     
   }
   
@@ -106,6 +131,10 @@
     text-transform: uppercase;
     display: block;
     text-align: center;
+    @media screen and (min-width: 1200px) {
+      text-align:start;
+      
+    }
     
   }
   
@@ -159,6 +188,10 @@
     margin-bottom: 18.25px;
     text-transform: uppercase;
     text-align: center;
+    @media screen and (min-width: 1200px) {
+      text-align:start;
+      
+    }
     
   }
   
@@ -175,13 +208,13 @@
     color: var(--primary-text-color);
     @media screen and (min-width: 768px) {
   
-      width: 450px;
+      width: 354px;
     
   }
   
   @media screen and (min-width: 1200px) {
   
-      width: 450px;
+      width: 354px;
     }
   }
   
@@ -211,6 +244,11 @@
   .modal-form-footer {
     display: flex;
     flex-direction: column;
+    @media screen and (min-width: 1200px) {
+  
+      flex-direction: row;
+      gap: 10px;
+    }
   }
   
   .modal-close-icon-footer {
@@ -219,14 +257,14 @@
   } 
 
  
-  .footer-sociale-list {
-    @media screen and (min-width: 768px) {
-      margin-left: 165px;
-    } 
-    @media screen and (min-width: 1200px) {
-      margin-left: 70px;
-    } 
-  }
+  // .footer-sociale-list {
+  //   @media screen and (min-width: 768px) {
+  //     margin-left: 165px;
+  //   } 
+  //   @media screen and (min-width: 1200px) {
+  //     margin-left: 70px;
+  //   } 
+  // }
      
   
  
