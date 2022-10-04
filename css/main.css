@@ -764,8 +764,8 @@ ol {
   color: #212121;
 }
 
-.menu-list-burger__item {
-  margin-bottom: 32px;
+.menu-list-burger__item:not(:last-child) {
+  margin-bottom: 42px;
 }
 
 .modal-burger {
@@ -783,7 +783,7 @@ ol {
 
 .menu-social-burger {
   display: flex;
-  margin-top: 64px;
+  margin-top: 60px;
 }
 
 .social-burger {
@@ -799,7 +799,7 @@ ol {
 }
 
 .menu-contact-burger {
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 .contact-maill-burger {
@@ -819,7 +819,7 @@ ol {
 }
 
 .menu-contact-item-burger {
-  margin-top: 302px;
+  margin-top: 15px;
 }
 
 .hero {
@@ -877,7 +877,7 @@ ol {
   text-align: center;
   font-family: var(--primary-font);
   font-weight: 900;
-  font-size: 20px;
+  font-size: 26px;
   line-height: 1.615;
   letter-spacing: 0.06em;
   text-transform: uppercase;

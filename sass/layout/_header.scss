@@ -6,6 +6,7 @@
   
   .page-header {
     border: 1px solid #ECECEC;
+   
    }
   
   .page-header-container {
@@ -257,8 +258,8 @@ color: #212121;
 
  }
 
- .menu-list-burger__item {
-  margin-bottom: 32px;
+ .menu-list-burger__item:not(:last-child) {
+  margin-bottom: 42px;
  }
 
  
@@ -279,7 +280,7 @@ color: #212121;
 
  .menu-social-burger {
   display: flex;
-  margin-top: 64px;
+  margin-top: 60px;
   
   
  }
@@ -294,10 +295,11 @@ color: #212121;
 
  .menu-social-item-burger:not(:last-child){
   padding-right: 20px;
+ 
  }
 
 .menu-contact-burger {
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 .contact-maill-burger {
@@ -321,6 +323,6 @@ color: var(--secondary-text-color-theme-light);
 }
 
 .menu-contact-item-burger {
-  margin-top: 302px;
+  margin-top: 15px;
 }
 
